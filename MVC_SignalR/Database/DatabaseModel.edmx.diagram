@@ -5,14 +5,14 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="d94ec800a4b94b7895045237855748d7" Name="Diagram1" ZoomLevel="47" >
-        <EntityTypeShape EntityType="SignalRModel.tblChatMessageDetail" Width="1.5" PointX="0.75" PointY="0.75" />
-        <EntityTypeShape EntityType="SignalRModel.tblChatPrivateMessageDetail" Width="1.5" PointX="2.75" PointY="0.75" />
-        <EntityTypeShape EntityType="SignalRModel.tblChatPrivateMessageMaster" Width="1.5" PointX="0.75" PointY="3.75" />
-        <EntityTypeShape EntityType="SignalRModel.tblChatUserDetail" Width="1.5" PointX="2.75" PointY="3.75" />
-        <EntityTypeShape EntityType="SignalRModel.AspNetRoles" Width="1.5" PointX="5.375" PointY="2.5" />
-        <EntityTypeShape EntityType="SignalRModel.AspNetUserClaims" Width="1.5" PointX="9.875" PointY="3.625" />
-        <EntityTypeShape EntityType="SignalRModel.AspNetUserLogins" Width="1.5" PointX="9.875" PointY="1" />
-        <EntityTypeShape EntityType="SignalRModel.AspNetUsers" Width="1.5" PointX="7.625" PointY="1.125" />
+        <EntityTypeShape EntityType="SignalRModel.AspNetRole" Width="1.5" PointX="0.75" PointY="2.5" />
+        <EntityTypeShape EntityType="SignalRModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="3.625" />
+        <EntityTypeShape EntityType="SignalRModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="1" />
+        <EntityTypeShape EntityType="SignalRModel.AspNetUser" Width="1.5" PointX="3" PointY="1.125" />
+        <EntityTypeShape EntityType="SignalRModel.tblChatMessageDetail" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="SignalRModel.tblChatPrivateMessageDetail" Width="1.5" PointX="2.75" PointY="6.75" />
+        <EntityTypeShape EntityType="SignalRModel.tblChatPrivateMessageMaster" Width="1.5" PointX="4.75" PointY="6.75" />
+        <EntityTypeShape EntityType="SignalRModel.tblChatUserDetail" Width="1.5" PointX="6.75" PointY="6.75" />
         <AssociationConnector Association="SignalRModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
         <AssociationConnector Association="SignalRModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
         <AssociationConnector Association="SignalRModel.AspNetUserRoles" />

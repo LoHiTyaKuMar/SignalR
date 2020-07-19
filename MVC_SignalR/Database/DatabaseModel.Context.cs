@@ -8,7 +8,8 @@
 //------------------------------------------------------------------------------
 
 namespace MVC_SignalR.Database
-{ 
+{
+    using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
@@ -24,13 +25,13 @@ namespace MVC_SignalR.Database
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<AspNetRole> AspNetRoles { get; set; }
+        public virtual DbSet<AspNetUserClaim> AspNetUserClaims { get; set; }
+        public virtual DbSet<AspNetUserLogin> AspNetUserLogins { get; set; }
+        public virtual DbSet<AspNetUser> AspNetUsers { get; set; }
         public virtual DbSet<tblChatMessageDetail> tblChatMessageDetails { get; set; }
         public virtual DbSet<tblChatPrivateMessageDetail> tblChatPrivateMessageDetails { get; set; }
         public virtual DbSet<tblChatPrivateMessageMaster> tblChatPrivateMessageMasters { get; set; }
         public virtual DbSet<tblChatUserDetail> tblChatUserDetails { get; set; }
-        public virtual DbSet<AspNetRoles> AspNetRoles { get; set; }
-        public virtual DbSet<AspNetUserClaims> AspNetUserClaims { get; set; }
-        public virtual DbSet<AspNetUserLogins> AspNetUserLogins { get; set; }
-        public virtual DbSet<AspNetUsers> AspNetUsers { get; set; }
     }
 }

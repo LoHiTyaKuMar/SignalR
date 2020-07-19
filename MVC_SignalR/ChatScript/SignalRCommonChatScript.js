@@ -209,7 +209,7 @@ function OpenPrivateChatWindow(chatHub, id, userName, userEmail, email) {
 
 function createPrivateChatWindow(chatHub, userId, ctrId, userName, userEmail, email) {
 
-    let div = '<div id="' + ctrId + '" class="ui-widget-content draggable" rel="0"><div class="header"><div  style="float:right;"><img id="imgDelete" style="cursor:pointer; height:15px; width:15px;" src="/Images/delete.png"/></div><span class="selText" rel="0">' + userName + '</span><span class="selText" id="msgTypingName" rel="0"></span></div><div id="divMessage" class="messageArea"></div><div class="buttonBar"><input id="txtPrivateMessage" class="msgText" type="text" /><input id="btnSendMessage" class="submitButton button" type="button" value="Send" /></div><div id="scrollLength"></div></div>';
+    let div = '<div id="' + ctrId + '" class="ui-widget-content draggable" style="left:70%; top:55%;" rel="0"><div class="header"><div style="float:right;"><img id="imgDelete" style="cursor:pointer; height:15px; width:15px;" src="/Images/delete.png"/></div><span class="selText" rel="0">' + userName + '</span><span class="selText" id="msgTypingName" rel="0"></span></div><div id="divMessage" class="messageArea"></div><div class="buttonBar"><input id="txtPrivateMessage" class="msgText" type="text" /><input id="btnSendMessage" class="submitButton button" type="button" value="Send" /></div><div id="scrollLength"></div></div>';
 
     let $div = $(div);
 

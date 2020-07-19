@@ -2,26 +2,22 @@
     ViewBag.Title = "Home Page";
 }
 
-@*<div id="header">
-    SignalR Chat Room
-</div> <br /> <br /> <br />*@
-
-<div id="divContainer">
+<div id="divContainer" class="container jumbotron panel panel-default">
     <div id="divLogin" class="login">
         <div>
-            Please Enter Your Name:<br/>
-            <input id="txtNickName" type="text" class="textBox"/>
+            Your Name:<br/>
+            <input id="txtNickName" type="text" class="textBox form-control"/>
         </div>
         <div>
-            Please Enter Your Email:<br/>
-            <input id="txtEmailId" type="text" class="textBox"/>
+            Your Email:<br/>
+            <input id="txtEmailId" type="text" class="textBox form-control"/>
         </div>
         <div id="divButton">
             <input id="btnStartChat" type="button" class="submitButton" value="Start Chat"/>
         </div>
     </div> 
     
-    <div id="divusers" class="users">
+    <div id="divusers" class="users panel panel-default col-md-3">
     </div>
 
     @*<div id="divChat" class="chatRoom">

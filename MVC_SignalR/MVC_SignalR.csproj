@@ -182,16 +182,16 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Database\AspNetRoles.cs">
+    <Compile Include="Database\AspNetRole.cs">
       <DependentUpon>DatabaseModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\AspNetUserClaims.cs">
+    <Compile Include="Database\AspNetUser.cs">
       <DependentUpon>DatabaseModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\AspNetUserLogins.cs">
+    <Compile Include="Database\AspNetUserClaim.cs">
       <DependentUpon>DatabaseModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\AspNetUsers.cs">
+    <Compile Include="Database\AspNetUserLogin.cs">
       <DependentUpon>DatabaseModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Database\DatabaseModel.Context.cs">
