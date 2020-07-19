@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d94ec800a4b94b7895045237855748d7" Name="Diagram1" ZoomLevel="47" >
+        <EntityTypeShape EntityType="SignalRModel.tblChatMessageDetail" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SignalRModel.tblChatPrivateMessageDetail" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SignalRModel.tblChatPrivateMessageMaster" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="SignalRModel.tblChatUserDetail" Width="1.5" PointX="2.75" PointY="3.75" />
+        <EntityTypeShape EntityType="SignalRModel.AspNetRoles" Width="1.5" PointX="5.375" PointY="2.5" />
+        <EntityTypeShape EntityType="SignalRModel.AspNetUserClaims" Width="1.5" PointX="9.875" PointY="3.625" />
+        <EntityTypeShape EntityType="SignalRModel.AspNetUserLogins" Width="1.5" PointX="9.875" PointY="1" />
+        <EntityTypeShape EntityType="SignalRModel.AspNetUsers" Width="1.5" PointX="7.625" PointY="1.125" />
+        <AssociationConnector Association="SignalRModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="SignalRModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="SignalRModel.AspNetUserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
